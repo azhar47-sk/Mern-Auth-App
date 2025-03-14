@@ -40,45 +40,52 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for user authen
 ```bash
 git clone https://github.com/azhar47-sk/Mern-Auth-App.git
 cd Mern-Auth-App
+```
 
 ### 2. Install Dependencies
-Backend
+#### Backend
 ```bash
 cd server
 npm install
+```
 
-Frontend
+#### Frontend
 ```bash
 cd ../client
 npm install
+```
 
 ### 3. Configure Environment Variables
-Create a .env file in server/:
-```bash
+Create a `.env` file in `server/`:
+```env
 MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
 PORT=5000
+```
 
-Update the frontend API URL in client/src/services/authService.js:
-```bash
+Update the frontend API URL in `client/src/services/authService.js`:
+```javascript
 const API_URL = 'http://localhost:5000/auth'; // Ensure this matches your backend port
+```
 
 ### 4. Run the Application
-Start Backend
+#### Start Backend
 ```bash
 cd server
 npm start
+```
 
-Start Frontend
+#### Start Frontend
 ```bash
 cd ../client
 npm run dev
+```
 
-Visit http://localhost:5173 in your browser.
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
-##Folder Structure 📁
+## Folder Structure 📁
 
-##Backend (server/)
+### Backend (`server/`)
 ```bash
 server/
 ├── controllers/    # Route handlers (authController.js)
@@ -87,9 +94,9 @@ server/
 ├── middleware/     # Auth middleware (authMiddleware.js)
 ├── server.js       # Backend entry point
 └── .env            # Environment variables
+```
 
-###Frontend (client/)
-
+### Frontend (`client/`)
 ```bash
 client/
 ├── src/
@@ -99,6 +106,7 @@ client/
 │   └── main.jsx    # Frontend entry point
 ├── public/         # Static assets
 └── tailwind.config.js # Tailwind config
+```
 
 ## API Endpoints 🌐
 
