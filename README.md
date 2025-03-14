@@ -137,7 +137,6 @@ Authentication is the gateway to secure digital experiences. By building this pr
 **Your journey doesn't end here!**  
 👉 Found a bug? [Open an issue](https://github.com/azhar47-sk/Mern-Auth-App/issues)  
 👉 Want to enhance security? [Submit a PR](https://github.com/azhar47-sk/Mern-Auth-App/pulls)  
-👉 Have questions? Reach out at `youremail@domain.com`
 
 **Star the repo** ⭐ if this helped you - it motivates us to keep creating open-source magic!
 
